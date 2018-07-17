@@ -13,6 +13,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        var a = 10;
+        let b = 10 * a;
+        a = b + a;
     }
 
     override func didReceiveMemoryWarning() {
